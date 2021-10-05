@@ -28,6 +28,7 @@ for w in range(len(s)):
             print(numArray)
 
 numArray.sort()
+print(numArray)
 for num in range(len(numArray)):
     for i in range(len(str(numArray[num]))):
         for j,v in dict.items():
