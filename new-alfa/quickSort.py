@@ -1,3 +1,4 @@
+# 作成中
 # ref https://tech-shelf.hatenablog.com/entry/algorithm/quicksort
 import random
 
