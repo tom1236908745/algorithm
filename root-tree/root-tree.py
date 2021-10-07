@@ -6,6 +6,10 @@ class node:
         self.p = p
         self.r = r
         self.l = l
+
+
+
+
 # 最後の表示をする関数
 def view(u):
     print(f'node {u}:', end='')
