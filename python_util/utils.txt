@@ -1,0 +1,29 @@
+# 分割代入
+X,Y,Z = map(int,input().split())
+
+# リストに連番代入
+arr = list(map(int, input().split()))
+
+# 文字のリストを代入
+list_a = input().split()
+print(list_a)  # ['hello', 'python']
+
+# 複数宣言
+X,Y=[],[]
+x, y = 1, 2
+
+# for for文
+# enumerateを使用すると、インデックスとアイテムがセットでループさせられる。
+# list型 順番がない、被りがない
+# list型 論理和 New = A | B, 論理積 New = A & B　なども出来る。
+Xdict = {x:i for i,x in enumerate(sorted(list(set(X))))}
+Ydict = {y:i for i,y in enumerate(sorted(list(set(Y))))}
+
+# クラス
+class node:
+    def __init__(self, p, r, l):
+        self.p = p
+        self.r = r
+        self.l = l
+
+node(hoge, hoge, hoge)
